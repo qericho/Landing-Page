@@ -3,7 +3,7 @@ import RocketLuch from '../assets/img/rocket-lunch.png'
 import Button from './Button'
 const Navbar = () => {
   return (
-    <div className="w-full h-[100px] flex items-center justify-center md:justify-between font-Poppins">
+    <nav className="w-full h-[100px] flex items-center justify-center md:justify-between font-Poppins">
         {/* Logo */}
         <div className='flex items-center'>
             <img className='cursor-pointer' src={Logo} alt="logo" />
@@ -18,7 +18,7 @@ const Navbar = () => {
             icon={<img src={RocketLuch} alt="rocket" className="w-5" />}
             title={"Get Started"}/>
         </div>
-    </div>
+    </nav>
   )
 }
 
