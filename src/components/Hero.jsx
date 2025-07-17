@@ -1,9 +1,9 @@
-import Button from './Button'
+import Button from '../components/buttons/Button'
 import HeroImg from '../assets/img/hero-img.png'
 
 const Hero = () => {
   return (
-    <section className='py-0 md:py-[100px]'>
+    <section className='py-10 md:py-40'>
        <div className="grid grid-cols-1 lg:grid-cols-2 space-y-8 place-items-center ">
          <div className="flex flex-col gap-5 lg:gap-10 items-center lg:items-start lg:text-start text-center">
             <h1 className='font-AguDisplay text-[37px] md:text-[67px] font-bold'>

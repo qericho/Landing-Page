@@ -1,4 +1,4 @@
-import FeatureCard from "./FeatureCard"
+import FeatureCard from "../components/cards/FeatureCard"
 import Wand from '../assets/img/wand.png'
 import Responsive from '../assets/img/responsive.png'
 import NoCode from '../assets/img/no-code.png'
@@ -10,7 +10,7 @@ const desc3 = "Zero coding skills required, Anima's Landing Page UI Kit empowers
 
 const Features = () => {
   return (
-    <section className="py-[120px]">
+    <section className="pt-40">
         <Title title={'Features'}
          desc={"Few good reasons why you should use Anima Landing Page Ui Kit to make your own pages."}/>
         <div className="grid grid-cols-1 xl:grid-cols-3 place-items-center gap-10 py-[100px]">

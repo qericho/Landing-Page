@@ -1,6 +1,6 @@
 import Logo from '../assets/img/logo.png'
 import RocketLuch from '../assets/img/rocket-lunch.png'
-import Button from './Button'
+import Button from '../components/buttons/Button'
 const Navbar = () => {
   return (
     <nav className="w-full h-[100px] flex items-center justify-center md:justify-between font-Poppins">

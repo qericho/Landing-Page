@@ -2,6 +2,8 @@ import Hero from "./components/Hero"
 import LogoBar from "./components/LogoBar"
 import Navbar from "./components/Navbar"
 import Features from "./components/Features"
+import Metrix from "./components/Metrix"
+import Cta from "./components/Cta"
 
 const App = () => {
   return (
@@ -10,6 +12,10 @@ const App = () => {
       <Hero/>
       <LogoBar/>
       <Features/>
+      <div className="flex xl:flex-col flex-col-reverse">
+        <Metrix/>
+        <Cta/>
+      </div>
     </div>
   )
 }
