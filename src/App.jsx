@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import Features from "./components/Features"
 import Metrix from "./components/Metrix"
 import Cta from "./components/Cta"
+import Testimonials from "./components/Testimonials"
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Metrix/>
         <Cta/>
       </div>
+      <Testimonials/>
     </div>
   )
 }

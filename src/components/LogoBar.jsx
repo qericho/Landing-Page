@@ -9,12 +9,12 @@ const LogoBar = () => {
   return (
     <div className='w-fullborder border border-y-[#D8D8D8] border-x-0  py-[60px]'>
         <div className='md:gap-y-0 gap-y-10 grid grid-cols-3 md:grid-cols-6 place-items-center'>
-             <img className='w-[100px]' src={Logo_1} alt="Logo-Bar-1"/>
-             <img className='w-[100px]' src={Logo_2} alt="Logo-Bar-1"/>
-             <img className='w-[100px]' src={Logo_3} alt="Logo-Bar-1"/>
-             <img className='w-[100px]' src={Logo_4} alt="Logo-Bar-1"/>
-             <img className='w-[100px]' src={Logo_5} alt="Logo-Bar-1"/>
-             <img className='w-[100px]' src={Logo_6} alt="Logo-Bar-1"/>
+             <img className='w-[80px]' src={Logo_1} alt="Logo-Bar-1"/>
+             <img className='w-[80px]' src={Logo_2} alt="Logo-Bar-1"/>
+             <img className='w-[80px]' src={Logo_3} alt="Logo-Bar-1"/>
+             <img className='w-[80px]' src={Logo_4} alt="Logo-Bar-1"/>
+             <img className='w-[80px]' src={Logo_5} alt="Logo-Bar-1"/>
+             <img className='w-[80px]' src={Logo_6} alt="Logo-Bar-1"/>
         </div>
        
     </div>
