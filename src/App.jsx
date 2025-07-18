@@ -5,6 +5,8 @@ import Features from "./components/Features"
 import Metrix from "./components/Metrix"
 import Cta from "./components/Cta"
 import Testimonials from "./components/Testimonials"
+import Pricing from "./components/Pricing"
+import Contact from "./components/Contact"
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
         <Cta/>
       </div>
       <Testimonials/>
+      <Pricing/>
+      <Contact/>
     </div>
   )
 }
