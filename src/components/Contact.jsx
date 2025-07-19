@@ -19,7 +19,7 @@ const Contact = () => {
     <section className="py-0 md:py-35">
         <Title title={"Let’s get in touch!"} desc={desc1} isStart={isStart}/>
         <div className="grid grid-cols-1 lg:grid-cols-2  place-items-center py-[40px]">
-            <div className="w-full lg:w-[500px] h-[230px]  flex flex-col gap-5 justify-center px-5 md:px-10 py-0 md:py-5">
+            <div className="w-full lg:w-[500px] h-[230px]  flex flex-col gap-5 justify-center px-5 lg:px-10 py-0 lg:py-5">
                 {/* contacts- */}
                 <div className="flex flex-col gap-4">
                     <div className="flex items-center gap-2">
@@ -46,7 +46,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full lg:w-[500px] h-[230px] flex flex-col justify-center  gap-4 px-5 md:px-10 py-0 md:py-5">
+            <div className="w-full lg:w-[500px] h-[230px] flex flex-col justify-center  gap-4 px-5 lg:px-10 py-0 lg:py-5">
                 <div className="relative">
                     <div className="absolute top-5 left-11 h-[20px] w-[1px] bg-[#DBE3FF]"></div>
                     <span className="absolute top-5.5 left-4 text-[#009379]"><IoMdPerson/></span>
