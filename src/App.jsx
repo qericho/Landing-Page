@@ -7,9 +7,11 @@ import Cta from "./components/Cta"
 import Testimonials from "./components/Testimonials"
 import Pricing from "./components/Pricing"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
+    <>
     <div className="container mx-auto px-3 md:px-0">
       <Navbar/>
       <Hero/>
@@ -23,6 +25,8 @@ const App = () => {
       <Pricing/>
       <Contact/>
     </div>
+      <Footer/>
+    </>
   )
 }
 

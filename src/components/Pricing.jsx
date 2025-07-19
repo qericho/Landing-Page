@@ -3,7 +3,7 @@ import Title from "./Title"
 import pricingData from "../assets/data/Pricing"
 const Pricing = () => {
   return (
-    <section className="py-4">
+    <section className="py-30 md:py-5">
         <Title title={"Pick Your Perfect Plan"} desc={"Find the perfect plan for your business with our flexible pricing options."}/>
         <div className="grid grid-cols-1 xl:grid-cols-3 place-items-center gap-5 py-20">
             {pricingData.map((p,i)=>(
